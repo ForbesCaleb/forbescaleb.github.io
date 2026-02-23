@@ -1,146 +1,118 @@
 ﻿@model CV_Program_ICE_Task_1.Models.Profile
 
-<h2>@Model.FullName</h2>
-
-<p>@Model.Location</p>
-<p>@Model.Phone</p>
-
-<p>
-    <strong>Email:</strong>
-    <a href="mailto:@Model.Email">
-        @Model.Email
-    </a>
-</p>
-
-<p>
-    <strong>GitHub:</strong>
-    <a href="@Model.GitHubUser" target="_blank">
-        @Model.GitHubUser
-    </a>
-</p>
+<div class="cv-header">
+    <div>
+        <h2 class="mb-1">@Model.FullName</h2>
+        <div class="text-muted">@Model.Location</div>
+        <div class="text-muted">@Model.Phone</div>
+        <div><a href="mailto:@Model.Email">@Model.Email</a></div>
+        <div>
+            <strong>GitHub:</strong>
+            <a href="@Model.GitHubUser" target="_blank">@Model.GitHubUser</a>
+        </div>
+    </div>
+</div>
 
 <hr />
 
-<h3>Professional Summary</h3>
-
-<p>@Model.ProfessionalSummary</p>
+<h3>About Me</h3>
+<p>@Model.AboutMe</p>
 
 <hr />
 
 <h3>Skills</h3>
+<div class="row">
+    <div class="col-md-6 mb-3">
+        <h5>Technical Skills</h5>
+        <ul>
+            @foreach (var s in Model.TechnicalSkills)
+            {
+                <li>@s</li>
+            }
+        </ul>
+    </div>
 
-<h4>Technical Skills</h4>
-
-<ul>
-    @foreach (var skill in Model.TechnicalSkills)
-    {
-        <li>@skill</li>
-    }
-</ul>
-
-<h4>Soft Skills</h4>
-
-<ul>
-    @foreach (var skill in Model.SoftSkills)
-    {
-        <li>@skill</li>
-    }
-</ul>
+    <div class="col-md-6 mb-3">
+        <h5>Soft Skills</h5>
+        <ul>
+            @foreach (var s in Model.SoftSkills)
+            {
+                <li>@s</li>
+            }
+        </ul>
+    </div>
+</div>
 
 <hr />
 
 <h3>Education</h3>
-
-<p><strong>@Model.Qualification</strong></p>
-
-<p>@Model.Institution</p>
-
-<p>@Model.YearInfo</p>
-
-<p>
-    <strong>Relevant Coursework:</strong>
-
-    @string.Join(", ", Model.RelevantCoursework)
-</p>
+<p class="mb-1"><strong>@Model.Qualification</strong></p>
+<p class="mb-1">@Model.Institution — @Model.YearInfo</p>
+<p class="mb-2"><strong>Relevant coursework:</strong> @string.Join(", ", Model.RelevantCoursework)</p>
 
 <hr />
 
 <h3>Projects</h3>
-
 <table class="table table-bordered">
-
     <thead>
         <tr>
-
             <th>Project</th>
-
-            <th>Description</th>
-
+            <th>Info</th>
             <th></th>
-
         </tr>
-
     </thead>
-
     <tbody>
-
         @foreach (var p in Model.Projects)
         {
             <tr>
-
-                <td>@p.Name</td>
-
-                <td>@p.Description</td>
-
                 <td>
-
-                    <a class="btn btn-primary btn-sm"
+                    <strong>@p.Name</strong>
+                    @if (!string.IsNullOrWhiteSpace(p.Subtitle))
+                    {
+                        <div class="text-muted">@p.Subtitle</div>
+                    }
+                </td>
+                <td>
+                    <div>@p.Description</div>
+                    @if (!string.IsNullOrWhiteSpace(p.TechStack))
+                    {
+                        <div class="text-muted"><strong>Tech:</strong> @p.TechStack</div>
+                    }
+                </td>
+                <td style="width:120px">
+                    <a class="btn btn-sm btn-secondary"
                        asp-action="Details"
                        asp-route-id="@p.Id">
-
                         View
-
                     </a>
-
                 </td>
-
             </tr>
         }
-
     </tbody>
-
 </table>
 
 <hr />
 
 <h3>Work Experience</h3>
-
-<p><strong>@Model.WorkPlace</strong> - @Model.WorkTitle</p>
-
+<p class="mb-1"><strong>@Model.WorkPlace</strong> — @Model.WorkTitle</p>
 <ul>
-
     @foreach (var w in Model.WorkBullets)
     {
         <li>@w</li>
     }
-
 </ul>
 
 <hr />
 
 <h3>Certifications</h3>
-
 <ul>
-
     @foreach (var c in Model.Certifications)
     {
         <li>@c</li>
     }
-
 </ul>
 
 <hr />
 
-<h3>References</h3>
-
-<p>@Model.ReferencesNote</p>
+<h3>Contact Info</h3>
+<pre style="white-space: pre-wrap; font-family: inherit;">@Model.ContactInfo</pre>
