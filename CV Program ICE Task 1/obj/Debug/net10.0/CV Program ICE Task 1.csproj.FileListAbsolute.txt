@@ -21,7 +21,6 @@ C:\Users\caleb\OneDrive\Documents\BCAD 2026\Semester 5\PROG7311\Code\CV Program 
 C:\Users\caleb\OneDrive\Documents\BCAD 2026\Semester 5\PROG7311\Code\CV Program ICE Task 1\obj\Debug\net10.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
 C:\Users\caleb\OneDrive\Documents\BCAD 2026\Semester 5\PROG7311\Code\CV Program ICE Task 1\obj\Debug\net10.0\scopedcss\bundle\CV Program ICE Task 1.styles.css
 C:\Users\caleb\OneDrive\Documents\BCAD 2026\Semester 5\PROG7311\Code\CV Program ICE Task 1\obj\Debug\net10.0\scopedcss\projectbundle\CV Program ICE Task 1.bundle.scp.css
-C:\Users\caleb\OneDrive\Documents\BCAD 2026\Semester 5\PROG7311\Code\CV Program ICE Task 1\obj\Debug\net10.0\compressed\dylh5qvn63-{0}-b9sayid5wm-b9sayid5wm.gz
 C:\Users\caleb\OneDrive\Documents\BCAD 2026\Semester 5\PROG7311\Code\CV Program ICE Task 1\obj\Debug\net10.0\compressed\hmlwrnwotw-{0}-61n19gt1b8-61n19gt1b8.gz
 C:\Users\caleb\OneDrive\Documents\BCAD 2026\Semester 5\PROG7311\Code\CV Program ICE Task 1\obj\Debug\net10.0\compressed\pinkc76l53-{0}-xtxxf3hu2r-xtxxf3hu2r.gz
 C:\Users\caleb\OneDrive\Documents\BCAD 2026\Semester 5\PROG7311\Code\CV Program ICE Task 1\obj\Debug\net10.0\compressed\svqvkkym7w-{0}-bqjiyaj88i-bqjiyaj88i.gz
@@ -96,3 +95,4 @@ C:\Users\caleb\OneDrive\Documents\BCAD 2026\Semester 5\PROG7311\Code\CV Program 
 C:\Users\caleb\OneDrive\Documents\BCAD 2026\Semester 5\PROG7311\Code\CV Program ICE Task 1\obj\Debug\net10.0\CV Program ICE Task 1.pdb
 C:\Users\caleb\OneDrive\Documents\BCAD 2026\Semester 5\PROG7311\Code\CV Program ICE Task 1\obj\Debug\net10.0\CV Program ICE Task 1.genruntimeconfig.cache
 C:\Users\caleb\OneDrive\Documents\BCAD 2026\Semester 5\PROG7311\Code\CV Program ICE Task 1\obj\Debug\net10.0\ref\CV Program ICE Task 1.dll
+C:\Users\caleb\OneDrive\Documents\BCAD 2026\Semester 5\PROG7311\Code\CV Program ICE Task 1\obj\Debug\net10.0\compressed\dylh5qvn63-{0}-azs6o05kft-azs6o05kft.gz

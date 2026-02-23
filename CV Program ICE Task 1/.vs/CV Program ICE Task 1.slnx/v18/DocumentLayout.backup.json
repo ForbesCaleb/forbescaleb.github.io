@@ -3,24 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\caleb\\OneDrive\\Documents\\BCAD 2026\\Semester 5\\PROG7311\\Code\\CV Program ICE Task 1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{88886986-8766-C178-A13E-2C3FB8936D49}|CV Program ICE Task 1.csproj|c:\\users\\caleb\\onedrive\\documents\\bcad 2026\\semester 5\\prog7311\\code\\cv program ice task 1\\.dockerignore||{3B902123-F8A7-4915-9F01-361F908088D0}",
-      "RelativeMoniker": "D:0:0:{88886986-8766-C178-A13E-2C3FB8936D49}|CV Program ICE Task 1.csproj|solutionrelative:.dockerignore||{3B902123-F8A7-4915-9F01-361F908088D0}"
+      "AbsoluteMoniker": "D:0:0:{88886986-8766-C178-A13E-2C3FB8936D49}|CV Program ICE Task 1.csproj|c:\\users\\caleb\\onedrive\\documents\\bcad 2026\\semester 5\\prog7311\\code\\cv program ice task 1\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{88886986-8766-C178-A13E-2C3FB8936D49}|CV Program ICE Task 1.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{88886986-8766-C178-A13E-2C3FB8936D49}|CV Program ICE Task 1.csproj|c:\\users\\caleb\\onedrive\\documents\\bcad 2026\\semester 5\\prog7311\\code\\cv program ice task 1\\controllers\\cvcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{88886986-8766-C178-A13E-2C3FB8936D49}|CV Program ICE Task 1.csproj|solutionrelative:controllers\\cvcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{88886986-8766-C178-A13E-2C3FB8936D49}|CV Program ICE Task 1.csproj|c:\\users\\caleb\\onedrive\\documents\\bcad 2026\\semester 5\\prog7311\\code\\cv program ice task 1\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{88886986-8766-C178-A13E-2C3FB8936D49}|CV Program ICE Task 1.csproj|solutionrelative:views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88886986-8766-C178-A13E-2C3FB8936D49}|CV Program ICE Task 1.csproj|c:\\users\\caleb\\onedrive\\documents\\bcad 2026\\semester 5\\prog7311\\code\\cv program ice task 1\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{88886986-8766-C178-A13E-2C3FB8936D49}|CV Program ICE Task 1.csproj|solutionrelative:views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88886986-8766-C178-A13E-2C3FB8936D49}|CV Program ICE Task 1.csproj|c:\\users\\caleb\\onedrive\\documents\\bcad 2026\\semester 5\\prog7311\\code\\cv program ice task 1\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{88886986-8766-C178-A13E-2C3FB8936D49}|CV Program ICE Task 1.csproj|solutionrelative:wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{88886986-8766-C178-A13E-2C3FB8936D49}|CV Program ICE Task 1.csproj|c:\\users\\caleb\\onedrive\\documents\\bcad 2026\\semester 5\\prog7311\\code\\cv program ice task 1\\views\\cv\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{88886986-8766-C178-A13E-2C3FB8936D49}|CV Program ICE Task 1.csproj|solutionrelative:views\\cv\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{88886986-8766-C178-A13E-2C3FB8936D49}|CV Program ICE Task 1.csproj|c:\\users\\caleb\\onedrive\\documents\\bcad 2026\\semester 5\\prog7311\\code\\cv program ice task 1\\models\\profile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{88886986-8766-C178-A13E-2C3FB8936D49}|CV Program ICE Task 1.csproj|solutionrelative:models\\profile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{88886986-8766-C178-A13E-2C3FB8936D49}|CV Program ICE Task 1.csproj|c:\\users\\caleb\\onedrive\\documents\\bcad 2026\\semester 5\\prog7311\\code\\cv program ice task 1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{88886986-8766-C178-A13E-2C3FB8936D49}|CV Program ICE Task 1.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{88886986-8766-C178-A13E-2C3FB8936D49}|CV Program ICE Task 1.csproj|c:\\users\\caleb\\onedrive\\documents\\bcad 2026\\semester 5\\prog7311\\code\\cv program ice task 1\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -29,6 +29,22 @@
     {
       "AbsoluteMoniker": "D:0:0:{88886986-8766-C178-A13E-2C3FB8936D49}|CV Program ICE Task 1.csproj|c:\\users\\caleb\\onedrive\\documents\\bcad 2026\\semester 5\\prog7311\\code\\cv program ice task 1\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{88886986-8766-C178-A13E-2C3FB8936D49}|CV Program ICE Task 1.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88886986-8766-C178-A13E-2C3FB8936D49}|CV Program ICE Task 1.csproj|c:\\users\\caleb\\onedrive\\documents\\bcad 2026\\semester 5\\prog7311\\code\\cv program ice task 1\\controllers\\cvcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{88886986-8766-C178-A13E-2C3FB8936D49}|CV Program ICE Task 1.csproj|solutionrelative:controllers\\cvcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88886986-8766-C178-A13E-2C3FB8936D49}|CV Program ICE Task 1.csproj|c:\\users\\caleb\\onedrive\\documents\\bcad 2026\\semester 5\\prog7311\\code\\cv program ice task 1\\.dockerignore||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{88886986-8766-C178-A13E-2C3FB8936D49}|CV Program ICE Task 1.csproj|solutionrelative:.dockerignore||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88886986-8766-C178-A13E-2C3FB8936D49}|CV Program ICE Task 1.csproj|c:\\users\\caleb\\onedrive\\documents\\bcad 2026\\semester 5\\prog7311\\code\\cv program ice task 1\\models\\profile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{88886986-8766-C178-A13E-2C3FB8936D49}|CV Program ICE Task 1.csproj|solutionrelative:models\\profile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88886986-8766-C178-A13E-2C3FB8936D49}|CV Program ICE Task 1.csproj|c:\\users\\caleb\\onedrive\\documents\\bcad 2026\\semester 5\\prog7311\\code\\cv program ice task 1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{88886986-8766-C178-A13E-2C3FB8936D49}|CV Program ICE Task 1.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{88886986-8766-C178-A13E-2C3FB8936D49}|CV Program ICE Task 1.csproj|c:\\users\\caleb\\onedrive\\documents\\bcad 2026\\semester 5\\prog7311\\code\\cv program ice task 1\\views\\cv\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -58,40 +74,63 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{56df62a4-05a3-4e5b-aa1a-99371ccfb997}"
-            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": ".dockerignore",
-              "DocumentMoniker": "C:\\Users\\caleb\\OneDrive\\Documents\\BCAD 2026\\Semester 5\\PROG7311\\Code\\CV Program ICE Task 1\\.dockerignore",
-              "RelativeDocumentMoniker": ".dockerignore",
-              "ToolTip": "C:\\Users\\caleb\\OneDrive\\Documents\\BCAD 2026\\Semester 5\\PROG7311\\Code\\CV Program ICE Task 1\\.dockerignore",
-              "RelativeToolTip": ".dockerignore",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2026-02-22T19:06:31.325Z",
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\caleb\\OneDrive\\Documents\\BCAD 2026\\Semester 5\\PROG7311\\Code\\CV Program ICE Task 1\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\caleb\\OneDrive\\Documents\\BCAD 2026\\Semester 5\\PROG7311\\Code\\CV Program ICE Task 1\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAE0AAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-23T19:57:26.24Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "Dockerfile",
-              "DocumentMoniker": "C:\\Users\\caleb\\OneDrive\\Documents\\BCAD 2026\\Semester 5\\PROG7311\\Code\\CV Program ICE Task 1\\Dockerfile",
-              "RelativeDocumentMoniker": "Dockerfile",
-              "ToolTip": "C:\\Users\\caleb\\OneDrive\\Documents\\BCAD 2026\\Semester 5\\PROG7311\\Code\\CV Program ICE Task 1\\Dockerfile",
-              "RelativeToolTip": "Dockerfile",
+              "DocumentIndex": 1,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "C:\\Users\\caleb\\OneDrive\\Documents\\BCAD 2026\\Semester 5\\PROG7311\\Code\\CV Program ICE Task 1\\Views\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "Views\\_ViewStart.cshtml",
+              "ToolTip": "C:\\Users\\caleb\\OneDrive\\Documents\\BCAD 2026\\Semester 5\\PROG7311\\Code\\CV Program ICE Task 1\\Views\\_ViewStart.cshtml",
+              "RelativeToolTip": "Views\\_ViewStart.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2026-02-22T19:06:29.936Z"
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-23T19:56:47.176Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 2,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "C:\\Users\\caleb\\OneDrive\\Documents\\BCAD 2026\\Semester 5\\PROG7311\\Code\\CV Program ICE Task 1\\Views\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "Views\\_ViewImports.cshtml",
+              "ToolTip": "C:\\Users\\caleb\\OneDrive\\Documents\\BCAD 2026\\Semester 5\\PROG7311\\Code\\CV Program ICE Task 1\\Views\\_ViewImports.cshtml",
+              "RelativeToolTip": "Views\\_ViewImports.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-23T19:56:44.901Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "site.css",
+              "DocumentMoniker": "C:\\Users\\caleb\\OneDrive\\Documents\\BCAD 2026\\Semester 5\\PROG7311\\Code\\CV Program ICE Task 1\\wwwroot\\css\\site.css",
+              "RelativeDocumentMoniker": "wwwroot\\css\\site.css",
+              "ToolTip": "C:\\Users\\caleb\\OneDrive\\Documents\\BCAD 2026\\Semester 5\\PROG7311\\Code\\CV Program ICE Task 1\\wwwroot\\css\\site.css",
+              "RelativeToolTip": "wwwroot\\css\\site.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2026-02-23T19:54:18.789Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\caleb\\OneDrive\\Documents\\BCAD 2026\\Semester 5\\PROG7311\\Code\\CV Program ICE Task 1\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
@@ -103,7 +142,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 14,
               "Title": "HomeController.cs",
               "DocumentMoniker": "C:\\Users\\caleb\\OneDrive\\Documents\\BCAD 2026\\Semester 5\\PROG7311\\Code\\CV Program ICE Task 1\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
@@ -115,7 +154,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 11,
               "Title": "Details.cshtml",
               "DocumentMoniker": "C:\\Users\\caleb\\OneDrive\\Documents\\BCAD 2026\\Semester 5\\PROG7311\\Code\\CV Program ICE Task 1\\Views\\CV\\Details.cshtml",
               "RelativeDocumentMoniker": "Views\\CV\\Details.cshtml",
@@ -127,32 +166,57 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\caleb\\OneDrive\\Documents\\BCAD 2026\\Semester 5\\PROG7311\\Code\\CV Program ICE Task 1\\Views\\CV\\Index.cshtml",
-              "RelativeDocumentMoniker": "Views\\CV\\Index.cshtml",
-              "ToolTip": "C:\\Users\\caleb\\OneDrive\\Documents\\BCAD 2026\\Semester 5\\PROG7311\\Code\\CV Program ICE Task 1\\Views\\CV\\Index.cshtml",
-              "RelativeToolTip": "Views\\CV\\Index.cshtml",
-              "ViewState": "AgIAABgAAAAAAAAAAAAAAHUAAABSAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-02-21T10:24:10.187Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 7,
               "Title": "CVController.cs",
               "DocumentMoniker": "C:\\Users\\caleb\\OneDrive\\Documents\\BCAD 2026\\Semester 5\\PROG7311\\Code\\CV Program ICE Task 1\\Controllers\\CVController.cs",
               "RelativeDocumentMoniker": "Controllers\\CVController.cs",
               "ToolTip": "C:\\Users\\caleb\\OneDrive\\Documents\\BCAD 2026\\Semester 5\\PROG7311\\Code\\CV Program ICE Task 1\\Controllers\\CVController.cs",
               "RelativeToolTip": "Controllers\\CVController.cs",
-              "ViewState": "AgIAAG4AAAAAAAAAAAAAwHYAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAHQAAAAAAAAAAAAkwIAAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-02-21T10:19:25.995Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 15,
+              "Title": "Dockerfile",
+              "DocumentMoniker": "C:\\Users\\caleb\\OneDrive\\Documents\\BCAD 2026\\Semester 5\\PROG7311\\Code\\CV Program ICE Task 1\\Dockerfile",
+              "RelativeDocumentMoniker": "Dockerfile",
+              "ToolTip": "C:\\Users\\caleb\\OneDrive\\Documents\\BCAD 2026\\Semester 5\\PROG7311\\Code\\CV Program ICE Task 1\\Dockerfile",
+              "RelativeToolTip": "Dockerfile",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2026-02-22T19:06:29.936Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": ".dockerignore",
+              "DocumentMoniker": "C:\\Users\\caleb\\OneDrive\\Documents\\BCAD 2026\\Semester 5\\PROG7311\\Code\\CV Program ICE Task 1\\.dockerignore",
+              "RelativeDocumentMoniker": ".dockerignore",
+              "ToolTip": "C:\\Users\\caleb\\OneDrive\\Documents\\BCAD 2026\\Semester 5\\PROG7311\\Code\\CV Program ICE Task 1\\.dockerignore",
+              "RelativeToolTip": ".dockerignore",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2026-02-22T19:06:31.325Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\caleb\\OneDrive\\Documents\\BCAD 2026\\Semester 5\\PROG7311\\Code\\CV Program ICE Task 1\\Views\\CV\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\CV\\Index.cshtml",
+              "ToolTip": "C:\\Users\\caleb\\OneDrive\\Documents\\BCAD 2026\\Semester 5\\PROG7311\\Code\\CV Program ICE Task 1\\Views\\CV\\Index.cshtml",
+              "RelativeToolTip": "Views\\CV\\Index.cshtml",
+              "ViewState": "AgIAADAAAAAAAAAAAAAqwIoAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-21T10:24:10.187Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
               "Title": "Profile.cs",
               "DocumentMoniker": "C:\\Users\\caleb\\OneDrive\\Documents\\BCAD 2026\\Semester 5\\PROG7311\\Code\\CV Program ICE Task 1\\Models\\Profile.cs",
               "RelativeDocumentMoniker": "Models\\Profile.cs",
@@ -164,7 +228,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 13,
               "Title": "ErrorViewModel.cs",
               "DocumentMoniker": "C:\\Users\\caleb\\OneDrive\\Documents\\BCAD 2026\\Semester 5\\PROG7311\\Code\\CV Program ICE Task 1\\Models\\ErrorViewModel.cs",
               "RelativeDocumentMoniker": "Models\\ErrorViewModel.cs",
@@ -184,7 +248,8 @@
               "RelativeToolTip": "Views\\Home\\Index.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-02-22T19:25:31.418Z"
+              "WhenOpened": "2026-02-22T19:25:31.418Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -194,13 +259,14 @@
               "RelativeDocumentMoniker": "Views\\Home\\Privacy.cshtml",
               "ToolTip": "C:\\Users\\caleb\\OneDrive\\Documents\\BCAD 2026\\Semester 5\\PROG7311\\Code\\CV Program ICE Task 1\\Views\\Home\\Privacy.cshtml",
               "RelativeToolTip": "Views\\Home\\Privacy.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-02-22T19:25:32.387Z"
+              "WhenOpened": "2026-02-22T19:25:32.387Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 12,
               "Title": "Project.cs",
               "DocumentMoniker": "C:\\Users\\caleb\\OneDrive\\Documents\\BCAD 2026\\Semester 5\\PROG7311\\Code\\CV Program ICE Task 1\\Models\\Project.cs",
               "RelativeDocumentMoniker": "Models\\Project.cs",

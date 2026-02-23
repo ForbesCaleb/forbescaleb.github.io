@@ -1,118 +1,139 @@
 ﻿@model CV_Program_ICE_Task_1.Models.Profile
 
-<div class="cv-header">
-    <div>
-        <h2 class="mb-1">@Model.FullName</h2>
-        <div class="text-muted">@Model.Location</div>
-        <div class="text-muted">@Model.Phone</div>
-        <div><a href="mailto:@Model.Email">@Model.Email</a></div>
-        <div>
-            <strong>GitHub:</strong>
-            <a href="@Model.GitHubUser" target="_blank">@Model.GitHubUser</a>
+<div class="cv-container">
+
+    <!-- HEADER -->
+    <div class="cv-header">
+        <h1>@Model.FullName</h1>
+
+        <div class="contact-row">
+            <span>@Model.Location</span> |
+            <span>@Model.Phone</span> |
+            <a href="mailto:@Model.Email">@Model.Email</a> |
+            <a href="@Model.GitHubUser" target="_blank">GitHub</a>
         </div>
     </div>
-</div>
 
-<hr />
+    <!-- ABOUT -->
+    <section class="cv-section">
+        <h2>About Me</h2>
+        <p>@Model.AboutMe</p>
+    </section>
 
-<h3>About Me</h3>
-<p>@Model.AboutMe</p>
+    <!-- SKILLS -->
+    <section class="cv-section">
+        <h2>Skills</h2>
 
-<hr />
+        <div class="skills-container">
 
-<h3>Skills</h3>
-<div class="row">
-    <div class="col-md-6 mb-3">
-        <h5>Technical Skills</h5>
-        <ul>
-            @foreach (var s in Model.TechnicalSkills)
-            {
-                <li>@s</li>
-            }
-        </ul>
-    </div>
+            <div class="skills-box">
+                <h4>Technical Skills</h4>
+                <ul>
+                    @foreach (var skill in Model.TechnicalSkills)
+                    {
+                        <li>@skill</li>
+                    }
+                </ul>
+            </div>
 
-    <div class="col-md-6 mb-3">
-        <h5>Soft Skills</h5>
-        <ul>
-            @foreach (var s in Model.SoftSkills)
-            {
-                <li>@s</li>
-            }
-        </ul>
-    </div>
-</div>
+            <div class="skills-box">
+                <h4>Soft Skills</h4>
+                <ul>
+                    @foreach (var skill in Model.SoftSkills)
+                    {
+                        <li>@skill</li>
+                    }
+                </ul>
+            </div>
 
-<hr />
+        </div>
+    </section>
 
-<h3>Education</h3>
-<p class="mb-1"><strong>@Model.Qualification</strong></p>
-<p class="mb-1">@Model.Institution — @Model.YearInfo</p>
-<p class="mb-2"><strong>Relevant coursework:</strong> @string.Join(", ", Model.RelevantCoursework)</p>
+    <!-- EDUCATION -->
+    <section class="cv-section">
+        <h2>Education</h2>
 
-<hr />
+        <p><strong>@Model.Qualification</strong></p>
 
-<h3>Projects</h3>
-<table class="table table-bordered">
-    <thead>
-        <tr>
-            <th>Project</th>
-            <th>Info</th>
-            <th></th>
-        </tr>
-    </thead>
-    <tbody>
+        <p>@Model.Institution</p>
+
+        <p>@Model.YearInfo</p>
+
+        <p>
+            <strong>Relevant Coursework:</strong>
+            @string.Join(", ", Model.RelevantCoursework)
+        </p>
+    </section>
+
+    <!-- PROJECTS -->
+    <section class="cv-section">
+
+        <h2>Projects</h2>
+
         @foreach (var p in Model.Projects)
         {
-            <tr>
-                <td>
-                    <strong>@p.Name</strong>
-                    @if (!string.IsNullOrWhiteSpace(p.Subtitle))
-                    {
-                        <div class="text-muted">@p.Subtitle</div>
-                    }
-                </td>
-                <td>
-                    <div>@p.Description</div>
-                    @if (!string.IsNullOrWhiteSpace(p.TechStack))
-                    {
-                        <div class="text-muted"><strong>Tech:</strong> @p.TechStack</div>
-                    }
-                </td>
-                <td style="width:120px">
-                    <a class="btn btn-sm btn-secondary"
-                       asp-action="Details"
-                       asp-route-id="@p.Id">
-                        View
-                    </a>
-                </td>
-            </tr>
+            <div class="project-card">
+
+                <h4>@p.Name</h4>
+
+                <p>@p.Description</p>
+
+                <p class="tech">
+                    <strong>Tech:</strong> @p.TechStack
+                </p>
+
+                <a class="btn btn-primary"
+                   asp-action="Details"
+                   asp-route-id="@p.Id">
+                    View Project
+                </a>
+
+            </div>
         }
-    </tbody>
-</table>
 
-<hr />
+    </section>
 
-<h3>Work Experience</h3>
-<p class="mb-1"><strong>@Model.WorkPlace</strong> — @Model.WorkTitle</p>
-<ul>
-    @foreach (var w in Model.WorkBullets)
-    {
-        <li>@w</li>
-    }
-</ul>
+    <!-- WORK -->
+    <section class="cv-section">
 
-<hr />
+        <h2>Work Experience</h2>
 
-<h3>Certifications</h3>
-<ul>
-    @foreach (var c in Model.Certifications)
-    {
-        <li>@c</li>
-    }
-</ul>
+        <p>
+            <strong>@Model.WorkPlace</strong> - @Model.WorkTitle
+        </p>
 
-<hr />
+        <ul>
+            @foreach (var w in Model.WorkBullets)
+            {
+                <li>@w</li>
+            }
+        </ul>
 
-<h3>Contact Info</h3>
-<pre style="white-space: pre-wrap; font-family: inherit;">@Model.ContactInfo</pre>
+    </section>
+
+    <!-- CERTIFICATIONS -->
+    <section class="cv-section">
+
+        <h2>Certifications</h2>
+
+        <ul>
+            @foreach (var c in Model.Certifications)
+            {
+                <li>@c</li>
+            }
+        </ul>
+
+    </section>
+
+    <!-- CONTACT -->
+    <section class="cv-section">
+
+        <h2>Contact Info</h2>
+
+        <p style="white-space: pre-line;">
+            @Model.ContactInfo
+        </p>
+
+    </section>
+
+</div>

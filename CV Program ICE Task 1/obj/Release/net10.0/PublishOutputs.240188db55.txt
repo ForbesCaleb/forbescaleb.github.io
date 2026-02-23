@@ -1,0 +1,7 @@
+C:\Users\caleb\OneDrive\Documents\BCAD 2026\Semester 5\PROG7311\Code\CV Program ICE Task 1\obj\Release\net10.0\PubTmp\Out\CV Program ICE Task 1.exe
+C:\Users\caleb\OneDrive\Documents\BCAD 2026\Semester 5\PROG7311\Code\CV Program ICE Task 1\obj\Release\net10.0\PubTmp\Out\appsettings.Development.json
+C:\Users\caleb\OneDrive\Documents\BCAD 2026\Semester 5\PROG7311\Code\CV Program ICE Task 1\obj\Release\net10.0\PubTmp\Out\appsettings.json
+C:\Users\caleb\OneDrive\Documents\BCAD 2026\Semester 5\PROG7311\Code\CV Program ICE Task 1\obj\Release\net10.0\PubTmp\Out\CV Program ICE Task 1.dll
+C:\Users\caleb\OneDrive\Documents\BCAD 2026\Semester 5\PROG7311\Code\CV Program ICE Task 1\obj\Release\net10.0\PubTmp\Out\CV Program ICE Task 1.deps.json
+C:\Users\caleb\OneDrive\Documents\BCAD 2026\Semester 5\PROG7311\Code\CV Program ICE Task 1\obj\Release\net10.0\PubTmp\Out\CV Program ICE Task 1.runtimeconfig.json
+C:\Users\caleb\OneDrive\Documents\BCAD 2026\Semester 5\PROG7311\Code\CV Program ICE Task 1\obj\Release\net10.0\PubTmp\Out\CV Program ICE Task 1.pdb
