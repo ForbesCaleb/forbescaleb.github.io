@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "pxOr56nlH7k=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\caleb\\OneDrive\\Documents\\BCAD 2026\\Semester 5\\PROG7311\\Code\\CV Program ICE Task 1\\CV Program ICE Task 1.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\caleb\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.23.0\\microsoft.visualstudio.azure.containers.tools.targets.1.23.0.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,146 @@
+﻿@model CV_Program_ICE_Task_1.Models.Profile
+
+<h2>@Model.FullName</h2>
+
+<p>@Model.Location</p>
+<p>@Model.Phone</p>
+
+<p>
+    <strong>Email:</strong>
+    <a href="mailto:@Model.Email">
+        @Model.Email
+    </a>
+</p>
+
+<p>
+    <strong>GitHub:</strong>
+    <a href="@Model.GitHubUser" target="_blank">
+        @Model.GitHubUser
+    </a>
+</p>
+
+<hr />
+
+<h3>Professional Summary</h3>
+
+<p>@Model.ProfessionalSummary</p>
+
+<hr />
+
+<h3>Skills</h3>
+
+<h4>Technical Skills</h4>
+
+<ul>
+    @foreach (var skill in Model.TechnicalSkills)
+    {
+        <li>@skill</li>
+    }
+</ul>
+
+<h4>Soft Skills</h4>
+
+<ul>
+    @foreach (var skill in Model.SoftSkills)
+    {
+        <li>@skill</li>
+    }
+</ul>
+
+<hr />
+
+<h3>Education</h3>
+
+<p><strong>@Model.Qualification</strong></p>
+
+<p>@Model.Institution</p>
+
+<p>@Model.YearInfo</p>
+
+<p>
+    <strong>Relevant Coursework:</strong>
+
+    @string.Join(", ", Model.RelevantCoursework)
+</p>
+
+<hr />
+
+<h3>Projects</h3>
+
+<table class="table table-bordered">
+
+    <thead>
+        <tr>
+
+            <th>Project</th>
+
+            <th>Description</th>
+
+            <th></th>
+
+        </tr>
+
+    </thead>
+
+    <tbody>
+
+        @foreach (var p in Model.Projects)
+        {
+            <tr>
+
+                <td>@p.Name</td>
+
+                <td>@p.Description</td>
+
+                <td>
+
+                    <a class="btn btn-primary btn-sm"
+                       asp-action="Details"
+                       asp-route-id="@p.Id">
+
+                        View
+
+                    </a>
+
+                </td>
+
+            </tr>
+        }
+
+    </tbody>
+
+</table>
+
+<hr />
+
+<h3>Work Experience</h3>
+
+<p><strong>@Model.WorkPlace</strong> - @Model.WorkTitle</p>
+
+<ul>
+
+    @foreach (var w in Model.WorkBullets)
+    {
+        <li>@w</li>
+    }
+
+</ul>
+
+<hr />
+
+<h3>Certifications</h3>
+
+<ul>
+
+    @foreach (var c in Model.Certifications)
+    {
+        <li>@c</li>
+    }
+
+</ul>
+
+<hr />
+
+<h3>References</h3>
+
+<p>@Model.ReferencesNote</p>
